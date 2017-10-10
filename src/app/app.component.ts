@@ -13,6 +13,7 @@ import { HorariosPage } from '../pages/horarios/horarios';
 @Component({
   templateUrl: 'app.html'
 })
+
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 

@@ -1,12 +1,51 @@
-webpackJsonp([4],{
+webpackJsonp([3],{
 
-/***/ 100:
+/***/ 107:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CadastroPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var CadastroPage = (function () {
+    function CadastroPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    CadastroPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CadastroPage');
+    };
+    return CadastroPage;
+}());
+CadastroPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-cadastro',template:/*ion-inline-start:"/home/administrador/projeto/src/pages/cadastro/cadastro.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Criar Conta</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n    <ion-item>\n      <ion-input type="text" placeholder="Nome"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-input type="text" placeholder="Matricula"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-input type="text" placeholder="Email"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-input type="password" placeholder="Senha"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-input type="password" placeholder="Confirmar Senha"></ion-input>\n    </ion-item>\n    <ion-item>\n       <ion-label>Ciência da Computação</ion-label>\n       <ion-radio checked="true" value="cc"></ion-radio>\n     </ion-item>\n\n  </ion-list>\n\n  <div padding>\n    <button ion-button color="primary" block>Cadastre-se</button>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/home/administrador/projeto/src/pages/cadastro/cadastro.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+], CadastroPage);
+
+//# sourceMappingURL=cadastro.js.map
+
+/***/ }),
+
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GradePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -45,52 +84,7 @@ GradePage = __decorate([
 
 /***/ }),
 
-/***/ 101:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HorariosPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the HorariosPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var HorariosPage = (function () {
-    function HorariosPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    HorariosPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad HorariosPage');
-    };
-    return HorariosPage;
-}());
-HorariosPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-horarios',template:/*ion-inline-start:"/home/administrador/projeto/src/pages/horarios/horarios.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Meus Horários</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-item>\n    <ion-label>ICC</ion-label>\n    <ion-checkbox checked="true"></ion-checkbox>\n  </ion-item>\n\n  <ion-item>\n    <ion-label>IP</ion-label>\n    <ion-checkbox checked="true"></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>Cálculo I</ion-label>\n    <ion-checkbox checked="true"></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>LPTC</ion-label>\n    <ion-checkbox checked="true"></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>Lógica Matemática</ion-label>\n    <ion-checkbox checked="true"></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>Cálculo II</ion-label>\n    <ion-checkbox checked="true"></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>Física I</ion-label>\n    <ion-checkbox checked="true"></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>Física II</ion-label>\n    <ion-checkbox checked="true"></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>Estrutura de dados I</ion-label>\n    <ion-checkbox checked="true"></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>POO</ion-label>\n    <ion-checkbox checked="true"></ion-checkbox>\n  </ion-item>\n\n\n  <button ion-button>Selecionar Disciplinas</button>\n</ion-content>\n'/*ion-inline-end:"/home/administrador/projeto/src/pages/horarios/horarios.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-], HorariosPage);
-
-//# sourceMappingURL=horarios.js.map
-
-/***/ }),
-
-/***/ 110:
+/***/ 116:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -103,28 +97,24 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 110;
+webpackEmptyAsyncContext.id = 116;
 
 /***/ }),
 
-/***/ 151:
+/***/ 157:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/cadastro/cadastro.module": [
-		267,
-		3
+		302,
+		2
 	],
 	"../pages/disciplina/disciplina.module": [
-		268,
+		303,
 		0
 	],
 	"../pages/grade/grade.module": [
-		269,
-		2
-	],
-	"../pages/horarios/horarios.module": [
-		270,
+		304,
 		1
 	]
 };
@@ -139,18 +129,18 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 151;
+webpackAsyncContext.id = 157;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 195:
+/***/ 212:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -179,7 +169,7 @@ HomePage = __decorate([
 
 /***/ }),
 
-/***/ 196:
+/***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -223,13 +213,13 @@ LoginPage = __decorate([
 
 /***/ }),
 
-/***/ 197:
+/***/ 214:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -296,13 +286,87 @@ var ListPage_1;
 
 /***/ }),
 
-/***/ 198:
+/***/ 215:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export Horario */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HorariosPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__ = __webpack_require__(198);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the HorariosPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var Horario = (function () {
+    function Horario() {
+    }
+    return Horario;
+}());
+
+var HorariosPage = (function () {
+    function HorariosPage(navCtrl, navParams, db) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.h = db.list('/horario');
+        this.ho = new Horario;
+    }
+    HorariosPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad HorariosPage');
+    };
+    HorariosPage.prototype.cadastrar = function () {
+        var _this = this;
+        if (this.icc)
+            this.ho.nome = "icc";
+        if (this.ip)
+            this.ho.nome = "ip";
+        if (this.c1)
+            this.ho.nome = "c1";
+        if (this.lm)
+            this.ho.nome = "lm";
+        ;
+        if (this.lptc)
+            this.ho.nome = "lptc";
+        ;
+        this.h.push(this.ho).then(function () {
+            _this.ho = new Horario();
+        });
+    };
+    return HorariosPage;
+}());
+HorariosPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-horarios',template:/*ion-inline-start:"/home/administrador/projeto/src/pages/horarios/horarios.html"*/'<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Meus Horários</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-item>\n    <ion-label>ICC</ion-label>\n    <ion-checkbox  [(ngModel)] ="icc"></ion-checkbox>\n  </ion-item>\n\n  <ion-item>\n    <ion-label>IP</ion-label>\n    <ion-checkbox  [(ngModel)] ="ip"></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>Cálculo I</ion-label>\n    <ion-checkbox  [(ngModel)] ="c1"></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>LPTC</ion-label>\n    <ion-checkbox  [(ngModel)] ="lptc"></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>Lógica Matemática</ion-label>\n    <ion-checkbox  [(ngModel)] ="lm"></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>Cálculo II</ion-label>\n    <ion-checkbox ></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>Física I</ion-label>\n    <ion-checkbox ></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>Física II</ion-label>\n    <ion-checkbox ></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>Estrutura de dados I</ion-label>\n    <ion-checkbox ></ion-checkbox>\n  </ion-item>\n  <ion-item>\n    <ion-label>POO</ion-label>\n    <ion-checkbox ></ion-checkbox>\n  </ion-item>\n\n\n  <button ion-button (click)="cadastrar()">Selecionar Disciplinas</button>\n</ion-content>\n'/*ion-inline-end:"/home/administrador/projeto/src/pages/horarios/horarios.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */]])
+], HorariosPage);
+
+//# sourceMappingURL=horarios.js.map
+
+/***/ }),
+
+/***/ 216:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(233);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -310,23 +374,25 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 217:
+/***/ 233:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(258);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_login_login__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_grade_grade__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_cadastro_cadastro__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_list_list__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_horarios_horarios__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angularfire2__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angularfire2_database__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_login_login__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_grade_grade__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_cadastro_cadastro__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_list_list__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_horarios_horarios__ = __webpack_require__(215);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -345,6 +411,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
+var config = {
+    apiKey: "AIzaSyB7HYm7wvmj5Xf5bCV7pE5sxyaEpnNPexc",
+    authDomain: "hibridos-a43dd.firebaseapp.com",
+    databaseURL: "https://hibridos-a43dd.firebaseio.com",
+    projectId: "hibridos-a43dd",
+    storageBucket: "",
+    messagingSenderId: "130268102722"
+};
 var AppModule = (function () {
     function AppModule() {
     }
@@ -353,38 +429,39 @@ var AppModule = (function () {
 AppModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-            __WEBPACK_IMPORTED_MODULE_8__pages_list_list__["a" /* ListPage */],
-            __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-            __WEBPACK_IMPORTED_MODULE_6__pages_grade_grade__["a" /* GradePage */],
-            __WEBPACK_IMPORTED_MODULE_5__pages_login_login__["a" /* LoginPage */],
-            __WEBPACK_IMPORTED_MODULE_11__pages_horarios_horarios__["a" /* HorariosPage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_cadastro_cadastro__["a" /* CadastroPage */]
+            __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_list_list__["a" /* ListPage */],
+            __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_grade_grade__["a" /* GradePage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_login_login__["a" /* LoginPage */],
+            __WEBPACK_IMPORTED_MODULE_13__pages_horarios_horarios__["a" /* HorariosPage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_cadastro_cadastro__["a" /* CadastroPage */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
                 links: [
                     { loadChildren: '../pages/cadastro/cadastro.module#CadastroPageModule', name: 'CadastroPage', segment: 'cadastro', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/disciplina/disciplina.module#DisciplinaPageModule', name: 'DisciplinaPage', segment: 'disciplina', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/grade/grade.module#GradePageModule', name: 'GradePage', segment: 'grade', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/horarios/horarios.module#HorariosPageModule', name: 'HorariosPage', segment: 'horarios', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/grade/grade.module#GradePageModule', name: 'GradePage', segment: 'grade', priority: 'low', defaultHistory: [] }
                 ]
             }),
+            __WEBPACK_IMPORTED_MODULE_3_angularfire2__["a" /* AngularFireModule */].initializeApp(config),
+            __WEBPACK_IMPORTED_MODULE_4_angularfire2_database__["b" /* AngularFireDatabaseModule */],
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
         entryComponents: [
-            __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-            __WEBPACK_IMPORTED_MODULE_8__pages_list_list__["a" /* ListPage */],
-            __WEBPACK_IMPORTED_MODULE_6__pages_grade_grade__["a" /* GradePage */],
-            __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-            __WEBPACK_IMPORTED_MODULE_11__pages_horarios_horarios__["a" /* HorariosPage */],
-            __WEBPACK_IMPORTED_MODULE_5__pages_login_login__["a" /* LoginPage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_cadastro_cadastro__["a" /* CadastroPage */]
+            __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_list_list__["a" /* ListPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_grade_grade__["a" /* GradePage */],
+            __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_13__pages_horarios_horarios__["a" /* HorariosPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_login_login__["a" /* LoginPage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_cadastro_cadastro__["a" /* CadastroPage */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
         ]
     })
@@ -394,21 +471,21 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 258:
+/***/ 293:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_login_login__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_cadastro_cadastro__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_grade_grade__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_list_list__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_horarios_horarios__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_login_login__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_cadastro_cadastro__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_grade_grade__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_list_list__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_horarios_horarios__ = __webpack_require__(215);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -473,46 +550,7 @@ MyApp = __decorate([
 
 //# sourceMappingURL=app.component.js.map
 
-/***/ }),
-
-/***/ 99:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CadastroPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var CadastroPage = (function () {
-    function CadastroPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    CadastroPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad CadastroPage');
-    };
-    return CadastroPage;
-}());
-CadastroPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-cadastro',template:/*ion-inline-start:"/home/administrador/projeto/src/pages/cadastro/cadastro.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Criar Conta</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n    <ion-item>\n      <ion-input type="text" placeholder="Nome"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-input type="text" placeholder="Matricula"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-input type="text" placeholder="Email"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-input type="password" placeholder="Senha"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-input type="password" placeholder="Confirmar Senha"></ion-input>\n    </ion-item>\n    <ion-item>\n       <ion-label>Ciência da Computação</ion-label>\n       <ion-radio checked="true" value="cc"></ion-radio>\n     </ion-item>\n\n  </ion-list>\n\n  <div padding>\n    <button ion-button color="primary" block>Cadastre-se</button>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/home/administrador/projeto/src/pages/cadastro/cadastro.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-], CadastroPage);
-
-//# sourceMappingURL=cadastro.js.map
-
 /***/ })
 
-},[198]);
+},[216]);
 //# sourceMappingURL=main.js.map
