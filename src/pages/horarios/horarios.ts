@@ -11,7 +11,7 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
  */
 
  export class Horario {
-	nome: string;
+	nome: Array<string> = new Array();
 //hora: int;
 }
 
@@ -44,17 +44,17 @@ ho: Horario;
   cadastrar() {
 
 
-
-		if(this.icc)
-			this.ho.nome = "icc";
+  if(this.icc)
+      this.ho.nome.push("icc");
 		if(this.ip)
-			this.ho.nome = "ip";
+			this.ho.nome.push("ip");
 		if(this.c1)
-			this.ho.nome = "c1";
+			this.ho.nome.push("c1");
 		if(this.lm)
-			this.ho.nome = "lm";;
+			this.ho.nome.push("lm");
 		if(this.lptc)
-			this.ho.nome = "lptc";;
+			this.ho.nome.push("lptc");
+
 
 
 

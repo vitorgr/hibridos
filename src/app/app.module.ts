@@ -13,6 +13,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HorariosPage } from '../pages/horarios/horarios';
 import firebase from 'firebase';
+import { AuthProvider } from '../providers/auth/auth';
+import { AngularFireAuth } from 'angularfire2/auth';
 
 var config = {
     apiKey: "AIzaSyB7HYm7wvmj5Xf5bCV7pE5sxyaEpnNPexc",
@@ -53,7 +55,9 @@ var config = {
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    AuthProvider,
+    AngularFireAuth
   ]
 })
 export class AppModule {}

@@ -10,6 +10,7 @@ import { CadastroPage } from '../pages/cadastro/cadastro';
 import { GradePage } from '../pages/grade/grade';
 import { ListPage } from '../pages/list/list';
 import { HorariosPage } from '../pages/horarios/horarios';
+
 @Component({
   templateUrl: 'app.html'
 })
